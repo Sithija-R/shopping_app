@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo1.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sithijar.shopping_app"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c0bf02a7-c003-4c7f-907b-177628457ff7"
+      }
     }
   }
 }
